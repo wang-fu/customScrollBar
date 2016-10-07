@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.customBarContent{
+    overflow: hidden;
+}
+.bar-container{
+    height: 100%;
+    width: 8px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;;
+}
+.bar-container2{
+    height: 100%;
+    width: 8px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 13px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;;
+    background-color: rgb(156, 156, 191);
+}
+.bar{
+    height:30px;
+    margin: auto;
+    background-color: rgba(12, 12, 12, 0.45);
+    width:6px;
+    height:30px;
+    position: absolute;
+    top: 0px;
+    cursor:pointer;
+    left: 0px;
+    right: 0px;
+    border-radius: 5px;
+}
+.bar2{
+    height:30px;
+    margin: auto;
+    width:6px;
+    height:30px;
+    position: absolute;
+    top: 0px;
+    cursor:pointer;
+    left: 0px;
+    right: 0px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.bar:hover{
+    background-color: rgba(12, 12, 12, 0.6);
+}
+.bar2:hover{
+        background-color: rgba(255, 255, 255, 0.85);
+}
+.bar.active{
+    background-color: rgba(12, 12, 12, 0.8);
+}
+.bar2.active{
+        background-color: rgba(255, 255, 255, 0.65);
+}
+.custom-bar-outer{
+    height: 100%;
+    width: 100%;
+     position:relative;
+}
+.custom-bar-inner{
+    margin-right:20px;
+    height: 100%;
+    overflow: hidden;
+}
+.custom-bar-inner.custom-nobar{
+    margin-right:0px;
+    overflow:auto;
+}
+.dis-select{
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    -khtml-user-select: none; /*早期浏览器*/
+    user-select: none;
+}
